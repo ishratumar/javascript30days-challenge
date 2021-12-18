@@ -6,18 +6,18 @@ Course created by  [Wes Bos](https://github.com/wesbos). Here's the challenge ðŸ
 
 I created this repository in order to keep track of my progress in the JavaScript 30 Day Challenge and to commit and log what I have learned every day.
   
-  What is JavaScript 30 Day Challenge ?
+  # What is JavaScript 30 Day Challenge ? <br>
   It's a 30-day vanilla JavaScript coding challenge. You will build 30 unique projects in 30 days using fun and easy video tutorials.
   You should already know some JavaScript to take on this challenge.
   
  
-   #JavaScript 30-Day 1 White heavy check mark
-   #JavaScript 30-Day 2 White heavy check mark
-   #JavaScript 30-Day 3 White heavy check mark
-   #JavaScript 30-Day 4 White heavy check mark
-   #JavaScript 30-Day 5 White heavy check mark
+   # JavaScript 30-Day 1 
+   # JavaScript 30-Day 2 
+   # JavaScript 30-Day 3 
+   # JavaScript 30-Day 4 
+   # JavaScript 30-Day 5 
   
-   #JavaScript 30-Day 6 White heavy check mark
+   # JavaScript 30-Day 6 
 
 Type Ahead EyesðŸ‘€
  
