@@ -26,3 +26,35 @@ Fetch API
 Getting .json() from fetch response
 Array spread operator
 Match() function
+
+   # JavaScript 30-Day 7
+   # JavaScript 30-Day 8
+   # JavaScript 30-Day 9
+  14 Must Know Dev Tools Tricks<br>
+    // Regular<br>
+  <code> console.log('text'); </code><br>
+    // Interpolated<br>
+    <code>console.log('text with a %s', 'placeholder');</code><br>
+    // Styled<br>
+    <code>console.log( '%c text styling', background:red);</code><br>
+    // warning!<br>
+    <code>console.warn('warning message');</code><br>
+    // Error <br>
+    <code>console.error('error message');</code><br>
+    // Info<br>
+    <code>console.info('message info');</code><br>
+    // Testing<br>
+    <code>console.assert(false, 'the word is %s', 'foo');</code><br>
+    // clearing<br>
+    <code>console.clear();</code><br>
+    // Viewing DOM Elements<br>
+    <code>console.log(p);
+    console.dir(p);</code><br>
+    // Grouping together<br>
+    <code>console.group();
+    console.groupCollapsed()
+    console.groupEnd();</code><br>
+    // counting<br>
+    <code>console.count('Count');</code><br>
+    // timing<br>
+    <code>console.time('fetching data');</code>
