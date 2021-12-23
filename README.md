@@ -58,3 +58,25 @@ Match() function
     <code>console.count('Count');</code><br>
     // timing<br>
     <code>console.time('fetching data');</code>
+  
+ # JavaScript 30-Day 10
+
+   Hold Shift to Check Multiple Checkboxes ☑️
+
+   How it works 👇<br>
+   When you click a checkbox, hold Shift, and click another checkbox a few rows down or up, all the checkboxes in between those two are checked.
+   BOOM💥😅 Wes style 😉 
+  
+  TILT:
+    
+<code>const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');</code><br>
+   
+    
+  // Check if they had the shift key down<br>
+  // AND check that they are checking it<br>
+  <code>let inBetween = false;</code><br>
+  <code>inBetween = !inBetween;</code><br>
+
+<code>checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));</code><br>
+
+  
