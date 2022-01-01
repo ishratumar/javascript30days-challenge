@@ -78,5 +78,19 @@ Match() function
   <code>inBetween = !inBetween;</code><br>
 
 <code>checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));</code><br>
+  # JavaScript 30-Day 15 ✅
+
+Today's Challenge is about 2 main things:
+
+         1.Local Storage
+         2.Event Deligation
+
+Highlights:<br>
+=>e.preventDefault(); // stops the page from reloading.<br>
+=>JSON.stringify(items) // When you pass items it's going to convert your objects and arrays into a JSON string.<br>
+=>JSON.parse() // take items from the string and put it back into form whatever it was initially.<br>
+=>If you addEventListner() on something that doesn't't exist, you'll know that in future it won't be clicked.<br>
+
+
 
   
