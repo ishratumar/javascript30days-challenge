@@ -12,7 +12,20 @@ I created this repository in order to keep track of my progress in the JavaScrip
   
  
    # JavaScript 30-Day 1 
+  <h3>Javascript Drum Kit ☑️</h3>
+  <h5>My learnings from this mini-project:</h5>
+   1. key event 
+   2. transitionend event 
+   3. ES6 template strings.<br>
+  Found a very useful tool for finding JavaScript events Keycodes at [keycodes.info](https://keycode.info/).
+  
    # JavaScript 30-Day 2 
+   <h3>CSS + JS clock ☑️</h3>
+  <h5>My learnings from this mini-project:</h5>
+  1. I learned about CSS transitions and transform.<br>
+  2. The ES6 'const' keyword<br>
+  3. Live UI update after few seconds.<br>
+  
    # JavaScript 30-Day 3 
    # JavaScript 30-Day 4 
    # JavaScript 30-Day 5 
@@ -78,7 +91,7 @@ Match() function
   <code>inBetween = !inBetween;</code><br>
 
 <code>checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));</code><br>
-  # JavaScript 30-Day 15 ✅
+  # JavaScript 30-Day 15 ☑️
 
 Today's Challenge is about 2 main things:
 
