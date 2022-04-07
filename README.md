@@ -80,7 +80,7 @@ Match() function
    When you click a checkbox, hold Shift, and click another checkbox a few rows down or up, all the checkboxes in between those two are checked.
    BOOM💥😅 Wes style 😉 
   
-  TILT:
+ Highlights:
     
 <code>const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');</code><br>
    
