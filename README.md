@@ -77,33 +77,94 @@ I created this repository in order to keep track of my progress in the JavaScrip
   Wes shares some tips and tricks for using the developer tools in your browser
 
 All methods explained today👇
-    // Regular<br>
-  <code> console.log('text'); </code><br>
-    // Interpolated<br>
-    <code>console.log('text with a %s', 'placeholder');</code><br>
-    // Styled<br>
-    <code>console.log( '%c text styling', background:red);</code><br>
-    // warning!<br>
-    <code>console.warn('warning message');</code><br>
-    // Error <br>
-    <code>console.error('error message');</code><br>
-    // Info<br>
-    <code>console.info('message info');</code><br>
-    // Testing<br>
-    <code>console.assert(false, 'the word is %s', 'foo');</code><br>
-    // clearing<br>
-    <code>console.clear();</code><br>
-    // Viewing DOM Elements<br>
-    <code>console.log(p);
-    console.dir(p);</code><br>
-    // Grouping together<br>
-    <code>console.group();
-    console.groupCollapsed()
-    console.groupEnd();</code><br>
-    // counting<br>
-    <code>console.count('Count');</code><br>
-    // timing<br>
-    <code>console.time('fetching data');</code>
+  <table style=" background-repeat:no-repeat; width:450px;margin:0;" cellpadding="0" cellspacing="0" border="0">
+   <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+        Regular
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.log('text')        
+     </td>
+   </tr>
+    <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+        Interpolated
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.log('text with a %s', 'placeholder')        
+     </td>
+   </tr>
+   <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+        Styled
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.log( '%c text styling', background:red)       
+     </td>
+   </tr>   
+    <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         warning!
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.warn('warning message')       
+     </td>
+   </tr>
+        <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         Error
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.error('error message')
+     </td>
+   </tr>
+      <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         Info
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.info('message info')
+     </td>
+   </tr>
+          <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         Testing
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.assert(false, 'the word is %s', 'foo')
+     </td>
+   </tr>
+              <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         clearing
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.clear()
+     </td>
+   </tr>
+                  <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         clearing
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.log(p)<br>     console.dir(p)
+     </td>
+   </tr>
+                      <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         Grouping together
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.group()<br>console.groupCollapsed()<br> console.groupEnd()
+     </td>
+   </tr>
+                          <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         counting
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.count('Count')
+     </td>
+   </tr>
+                              <tr style="height:40px; width:450px; margin:0;">
+     <td style="height:40px; width:40px; margin:0;">
+         timing
+     </td>
+     <td style="height:40px; width:10px; margin:0;">console.time('fetching data')
+     </td>
+   </tr>
+    
+</table>
+  
   
  # JavaScript 30-Day 10☑️
 
