@@ -77,7 +77,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
   Wes shares some tips and tricks for using the developer tools in your browser
 
 All methods explained today👇
-  <table style=" background-repeat:no-repeat; width:450px;margin:0;" cellpadding="0" cellspacing="0" border="0">
+  <table style=" background-repeat:no-repeat; width:100%;margin:0;" cellpadding="0" cellspacing="0" border="0">
    <tr style="height:40px; width:450px; margin:0;">
      <td style="height:40px; width:40px; margin:0;">
         Regular
