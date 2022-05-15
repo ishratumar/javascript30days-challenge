@@ -12,74 +12,104 @@ I created this repository in order to keep track of my progress in the JavaScrip
   
  
    # JavaScript 30-Day 1 
-  <h3>Javascript Drum Kit ☑️</h3>
-  <h5>✍️ My learnings from this project:⤵️</h5>
-   ❶ key event <br>
-   ❷ transitionend event <br>
-   ❸ ES6 template strings.<br>
+  ## Javascript Drum Kit 🥁
+  ### ✍️ My learnings from this project:
+   - key event 
+   - transitionend event 
+   - ES6 template strings
    
    Methods Learnt:<br>
-    ▪️ addEventListener()
-    ▪️ querySelectorAll()
-    ▪️ remove() 
-    ▪️ play() <br>
-   ✦classList proprty=>The classList property returns the CSS classnames of an element. It returns a DOMTokenList.<br>
-  <strong>Found a very useful tool for finding JavaScript events Keycodes at [keycodes.info](https://keycode.info/)<strong>.<br>
+  ```
+  1. addEventListener()
+  2. querySelectorAll()
+  3. remove()
+  4. play()
+  ```
+  
+   ✦```classList``` proprty=>The classList property returns the CSS classnames of an element. It returns a DOMTokenList.<br>
+   **Found a very useful tool for finding JavaScript events Keycodes at [keycodes.info](https://keycode.info/)**.<br>
   
    # JavaScript 30-Day 2 
-   <h3>CSS + JS clock ☑️</h3>It was the most easy one.🥳
-  <h5>✍️ My learnings from this mini-project:⤵️</h5>
-  ❶ I learnet about CSS transitions and transform.<br>
-  ❷ The ES6 'const' keyword<br>
-  ❸  Live UI update after few seconds.<br>
-  
+   ## CSS + JS clock 🕓 
+  ### ✍️ My learnings from this mini-project:
+   - I have learnet about CSS transitions and transform
+   - The ES6 **'const'** keyword
+   - Live UI update after few seconds
+   - **Element.style** for inline styling
+
    # JavaScript 30-Day 3 
-   <h3>Update CSS Variables with JS☑️</h3>
+   ## Update CSS Variables with JS☑️
    ✦The goal today was to create an Image editor to control the spacing, color, and blur by modifying CSS variables with JavaScript.
   
    CSS variables explained:
-    ▪️ spacing
-    ▪️ base
-    ▪️ blur
+    - spacing
+    - base
+    - blur
+   ### ✍️ My learnings from this project:
+    - How to declare variables in css
+    ```
+      :root{
+      --base: yellow;<br>
+      }
+      img{
+      background-color: var(--base);
+    ```
+    - Code snippet to select all inputs on the page=> const inputs = document.querySelectorAll('.controls input');
+    - **querySelector** gives you a **NodeList**
+    - Learnet about **'change'** and **'mousemove'** events
+    Code Example:
+  ```
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+    ```
+    - Learnet about **'dataset'** that can be used to access all data attributes.
+    
+    
     
    # JavaScript 30-Day 4 
-    <h3></h3>
-  <h5>✍️ My learnings from this project:⤵️</h5>
+   ## Array Cardio Day 1 <br>
+    
+    This lesson is all about Fundamentals of JavaScript(Array methods).<br>
+   ### ✍️ My learnings from this project:⤵️
+    ▪️<code>filter()</code><br>
+    ▪️<code> map()</code><br>
+    ▪️<code> sort()</code><br>
+    ▪️<code> reduce()</code>
     
     
    # JavaScript 30-Day 5 
-   <h3>Flex Panels Gallery 💪</h3>
-  ✍️<h5>My learnings from this project:</h5>⤵️
-  ⚡️Today's lesson was about making a photo gallery. 
-  ⚡️Primarily focused on CSS flex property.
-  ⚡️Transitioned on flex-grow and font size to expand images. 
-  ⚡️The image will expand when you click on it and then shrink when you click it off. 
+   ## Flex Panels Gallery 💪
+   ### ✍️My learnings from this project:⤵️
+  ▪️ Today's lesson was about making a photo gallery. <br>
+  ▪️ Primarily focused on CSS flex property.<br>
+  ▪️ Transitioned on flex-grow and font size to expand images. <br>
+  ▪️ The image will expand when you click on it and then shrink when you click it off. <br>
   Today's JavaScript Functions:
-  ⚡️toggleOpen
-  ⚡️toggleActive
+    ▪️<code> toggleOpen</code><br>
+    ▪️<code> toggleActive</code><br>
   
     
    # JavaScript 30-Day 6 
-   <h3> Type Ahead 👀</h3>
-  ✍️<h5>My learnings from this project:</h5>⤵️
+   ## Type Ahead 👀
+   ### ✍️My learnings from this project:⤵️
    👉Fetch API 
    👉Getting .json() from fetch response
    👉Array spread operator
    👉Match() function
                     
    # JavaScript 30-Day 7
-    <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️
+   ## 
+   ### ✍️My learnings from this project:⤵️
     
    # JavaScript 30-Day 8
-    <h3>Fun with HTML5 Canvas🎨</h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️
+   ## Fun with HTML5 Canvas🎨
+   ### ✍️My learnings from this project:⤵️
   ⚡️Learned the fundamentals of HTML5 canvas.
   ⚡️Build a painting canvas where if you hold down the mouse button and drag, you can paint on it. Something like Microsoft Paint👀
   
    # JavaScript 30-Day 9☑️
-    <h3>14 Must Know Dev Tools Tricks💡</h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️
+   ## 14 Must Know Dev Tools Tricks💡
+   ### ✍️My learnings from this project:⤵️
   Learnedd how to use developer tools in your browser effectively. 
   Wes shares some tips and tricks for using the developer tools in your browser.
 
@@ -174,8 +204,8 @@ I created this repository in order to keep track of my progress in the JavaScrip
   
   
  # JavaScript 30-Day 10
-    <h3>Hold Shift to Check Multiple Checkboxes </h3>
-   ✍️<h5>My learnings from this project:</h5>⤵️   
+ ## Hold Shift to Check Multiple Checkboxes 
+ ###  ✍️My learnings from this project:⤵️   
    <code>const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');</code><br>
     // Check if they had the shift key down<br>
    // AND check that they are checking it<br>
@@ -189,113 +219,115 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
     
   # JavaScript 30-Day 11
-    <h3>HTML Video Player </h3>
-   ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ## HTML Video Player 
+  ### ✍️My learnings from this project:⤵️ 
    Today we learned how to edit HTML video player controls. In the end, Wes challenged us to add full-screen functionality. 
  
     
   # JavaScript 30-Day 11
-    <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 13 
+  ##
   Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.
- 👉As you scroll down, images slide in from the right or left sides of the page.
+ As you scroll down, images slide in from the right or left sides of the page.
+  ### ✍️
     
     
   
   # JavaScript 30-Day 14 
-    <h3></h3>
-  ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
   
   # JavaScript 30-Day 15 
-    <h3></h3>
+  ##
    Today's Challenge is about 2 main things:
          1.Local Storage
          2.Event Deligation
 
-   ✍️<h5>My learnings from this project:</h5>⤵️ 
+   ### ✍️My learnings from this project:⤵️ 
       =>e.preventDefault(); // stops the page from reloading.<br>
       =>JSON.stringify(items) // When you pass items it's going to convert your objects and arrays into a JSON string.<br>
       =>JSON.parse() // take items from the string and put it back into form whatever it was initially.<br>
       =>If you addEventListner() on something that doesn't't exist, you'll know that in future it won't be clicked.<br>
   
   # JavaScript 30-Day 16 
-    <h3></h3>
-    Day-16 is about adding shadow with 'mousemove'.
-   ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+    Day-16 is about adding shadow with <code>'mousemove'</code>.
+  ### ✍️My learnings from this project:⤵️ 
     
 
   # JavaScript 30-Day 17 
     Day-17 is about using 'array.sort()' to sort a list of band names without 'Articles'.
-    <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ###  ✍️My learnings from this project:⤵️ 
   
     
   # JavaScript 30-Day 18 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 19
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 20 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 21 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 22 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 23 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 24
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 25 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 26 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 27
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 28 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 29
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
     
     
   # JavaScript 30-Day 30 
-        <h3></h3>
-    ✍️<h5>My learnings from this project:</h5>⤵️ 
+  ##
+  ### ✍️My learnings from this project:⤵️ 
 
 
 
