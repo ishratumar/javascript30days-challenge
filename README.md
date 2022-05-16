@@ -42,39 +42,44 @@ I created this repository in order to keep track of my progress in the JavaScrip
    ✦The goal today was to create an Image editor to control the spacing, color, and blur by modifying CSS variables with JavaScript.
   
    CSS variables explained:
-    - spacing
-    - base
-    - blur
+   - spacing
+   - base 
+   - blur
    ### ✍️ My learnings from this project:
-    - How to declare variables in css
-    ```
+   - How to declare variables in css
+   ```
       :root{
       --base: yellow;<br>
       }
       img{
       background-color: var(--base);
-    ```
-    - Code snippet to select all inputs on the page=> const inputs = document.querySelectorAll('.controls input');
-    - **querySelector** gives you a **NodeList**
-    - Learnet about **'change'** and **'mousemove'** events
-    Code Example:
-  ```
+  }
+   ```
+   - Code snippet to select all inputs on the page=> ```const inputs = document.querySelectorAll('.controls input');```
+   - **querySelector** gives you a **NodeList**
+   - Learnet about **'change'** and **'mousemove'** events
+   ```
+    Example code:
+ 
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
-    ```
-    - Learnet about **'dataset'** that can be used to access all data attributes.
+  ```
+   - Learnet about **'dataset'** that can be used to access all data attributes.
     
     
     
    # JavaScript 30-Day 4 
-   ## Array Cardio Day 1 <br>
+   ## Array Cardio Day 1 
     
-    This lesson is all about Fundamentals of JavaScript(Array methods).<br>
+    This lesson is all about Fundamentals of JavaScript(Array methods).
    ### ✍️ My learnings from this project:⤵️
-    ▪️<code>filter()</code><br>
-    ▪️<code> map()</code><br>
-    ▪️<code> sort()</code><br>
-    ▪️<code> reduce()</code>
+   - Worked with ES6 Arrow functions.
+   - Learned about JavaScript array methods:
+     - filter() *is like you give 10 things and it return 2.*
+     - map() *returns exact same amount of elements as you give it.*
+     - sort() *used for sorting elements in some order.*
+     - reduce() *allow you to sort of build something on every single one.*
+  
     
     
    # JavaScript 30-Day 5 
