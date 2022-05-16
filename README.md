@@ -69,10 +69,10 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
     
    # JavaScript 30-Day 4 
-   ## Array Cardio Day 1 
+   ## Array Cardio Day 1 💪
     
-    This lesson is all about Fundamentals of JavaScript(Array methods).
-   ### ✍️ My learnings from this project:⤵️
+    ✦This lesson is all about Fundamentals of JavaScript(Array methods).
+   ### ✍️ My learnings from this project:
    - Worked with ES6 Arrow functions.
    - Learned about JavaScript array methods:
      - filter() *is like you give 10 things and it return 2.*
@@ -84,31 +84,33 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
    # JavaScript 30-Day 5 
    ## Flex Panels Gallery 💪
-   ### ✍️My learnings from this project:⤵️
-  ▪️ Today's lesson was about making a photo gallery. <br>
-  ▪️ Primarily focused on CSS flex property.<br>
-  ▪️ Transitioned on flex-grow and font size to expand images. <br>
-  ▪️ The image will expand when you click on it and then shrink when you click it off. <br>
-  Today's JavaScript Functions:
-    ▪️<code> toggleOpen</code><br>
-    ▪️<code> toggleActive</code><br>
+    ✦The image will expand when you click on it and then shrink when you click it off.
+    ✦Today's lesson was about making a photo gallery
+   ### ✍️My learnings from this project:
+   - Primarily focused on CSS flex property.
+   - Transitioned on **flex-grow** and **font-size** to expand images. 
+   - Used Funtions:
+     - toggleOpen
+     - toggleActive
+ 
+✦***Best resourse to learn CSS Flexbox:[Flexbox](https://flexbox.io/)***
   
     
    # JavaScript 30-Day 6 
    ## Type Ahead 👀
-   ### ✍️My learnings from this project:⤵️
-   👉Fetch API 
-   👉Getting .json() from fetch response
-   👉Array spread operator
-   👉Match() function
+   ### ✍️My learnings from this project:
+   - Fetch API 
+   - Getting .json() from fetch response
+   - Array spread operator
+   - Match() function
                     
    # JavaScript 30-Day 7
    ## 
-   ### ✍️My learnings from this project:⤵️
+   ### ✍️My learnings from this project:
     
    # JavaScript 30-Day 8
    ## Fun with HTML5 Canvas🎨
-   ### ✍️My learnings from this project:⤵️
+   ### ✍️My learnings from this project:
   ⚡️Learned the fundamentals of HTML5 canvas.
   ⚡️Build a painting canvas where if you hold down the mouse button and drag, you can paint on it. Something like Microsoft Paint👀
   
