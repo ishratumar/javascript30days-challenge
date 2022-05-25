@@ -105,20 +105,26 @@ I created this repository in order to keep track of my progress in the JavaScrip
    - Match() function
                     
    # JavaScript 30-Day 7
-   ## 
+   ## Array Cardio 💪💪
    ### ✍️My learnings from this project:
+   - Learnet some more Array methods 
+     - some()
+     - every()
+     - find()
+     - slice()
+     - findIndex()
     
    # JavaScript 30-Day 8
    ## Fun with HTML5 Canvas🎨
    ### ✍️My learnings from this project:
-  ⚡️Learned the fundamentals of HTML5 canvas.
-  ⚡️Build a painting canvas where if you hold down the mouse button and drag, you can paint on it. Something like Microsoft Paint👀
+   - Learnet the fundamentals of HTML5 canvas.
+   - Build a painting canvas where if you hold down the mouse button and drag, you can paint on it. Something like Microsoft Paint👀
   
-   # JavaScript 30-Day 9☑️
+   # JavaScript 30-Day 9
    ## 14 Must Know Dev Tools Tricks💡
-   ### ✍️My learnings from this project:⤵️
-  Learnedd how to use developer tools in your browser effectively. 
-  Wes shares some tips and tricks for using the developer tools in your browser.
+   ### ✍️My learnings from this project:
+   - Learnet how to use developer tools in your browser effectively. 
+   - Wes shared some amazing tips and tricks for using the developer tools in your browser.
 
   All methods explained today👇
   <table style=" background-repeat:no-repeat; width:100%;margin:0;" cellpadding="0" cellspacing="0" border="0">
@@ -212,16 +218,19 @@ I created this repository in order to keep track of my progress in the JavaScrip
   
  # JavaScript 30-Day 10
  ## Hold Shift to Check Multiple Checkboxes 
- ###  ✍️My learnings from this project:⤵️   
-   <code>const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');</code><br>
-    // Check if they had the shift key down<br>
-   // AND check that they are checking it<br>
-    <code>let inBetween = false;</code><br>
-    <code>inBetween = !inBetween;</code><br>
-    <code>checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));</code><br>
-   How it works 👇<br>
-   When you click a checkbox, hold Shift, and click another checkbox a few rows down or up, all the checkboxes in between those two are checked.
-   BOOM💥😅 Wes style ;) 
+ ###  ✍️My learnings from this project: 
+  Code Example:
+   ```const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');```
+ - Check if they had the shift key down
+ - AND check that they are checking it
+  ``` let inBetween = false;
+      inBetween = !inBetween;
+      checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
+  ```
+  
+***✦ How it works:***
+ - When you click a checkbox, hold Shift, and click another checkbox a few rows down or up, all the checkboxes in between those two are checked.
+   BOOM!! Wes style :D
   
     
     
