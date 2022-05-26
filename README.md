@@ -334,38 +334,70 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
     
   # JavaScript 30-Day 24
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Sticky nav
+  ### ✍️My learnings from this project:
+  - Learnet how to fix a nav when you scroll to it?
+  - Use ```nav.OffsetHeight``` -> grab the height of the pixels.
     
     
   # JavaScript 30-Day 25 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
-    
+  ## Event Capture, Propagation, Bubbling, and Once
+  ### ✍️My learnings from this project:
+  - Learnet about ```propagation```, ```bubbling```, ```event capturing```, and new property ```once```.
+    - Bubbling refers to the browser being able to determine what you clicked on, as well as trigger clicks to ripple up every time you click. For example:
+Whenever you click on a nested element, it actually starts from the top and then captures all of those events. It then starts at the bottom and starts doing something called a bubble.
+    - The capture happens from top to bottom and then the events, the events haven't started yet. It only captures where you clicked, and is storing them. As you go up, it will begin to bubble up, which means it will start triggering events as you go up.
+  
+  - ```e.stopPropagation();```-> *stop bubbling this event up*
+  
+- If you set once to true it will listen for a click and unbind itself and unbinding itself is the same thing as ```div.removeEvent.Listener('click', logText)```
+- You can use it for buttons when someone clicks that button more than once. (Example: Store checkouts)
+``` 
+  button.addEventListner('click', () =>{
+   console.log('click!!!');
+ },{
+  once: true
+});
+  ```  
     
   # JavaScript 30-Day 26 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Stripe Follow Along Dropdown
+  ### ✍️My learnings from this project
+  
     
     
   # JavaScript 30-Day 27
-  ##
-  ### ✍️My learnings from this project:⤵️ 
-    
+  ## Click and Drag to Scroll
+  ### ✍️My learnings from this project:
+  - Learnet logic behind *Click and Drag to Scroll* using that plays main role ```element.offsetLeft```.
+  - It's just a combination of mouse down, mouse leave, mouse out, mouse up, and mouse move.
+  ```
+  CSS code:
+     .item.active{
+      background: rgba();
+      cursor: grabbing;
+      cursor: -webkit-grabbing;
+      transform: scale(1);
+}
+```
     
   # JavaScript 30-Day 28 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Video Speed Controller UI
+  ### ✍️My learnings from this project:
+  - So that was kind of cool.
     
     
   # JavaScript 30-Day 29
-  ##
-  ### ✍️My learnings from this project:⤵️ 
-    
+  ## Countdown Clock
+  ### ✍️My learnings from this project:
+  - Learnet about Date.now(), clearInterval() functions. 
     
   # JavaScript 30-Day 30 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Whack A Mole Game
+  ### ✍️My learnings from this project:
+  - Completed today's challenge used ```document. query selector```, ```classList.add('up')``` and ```classList.remove('up')```.
+  
+ ***Thank you for sticking with me all the way to the end! Please consider staring this repo on top right of the page if you enjoy it and find it useful.***
 
 
 
