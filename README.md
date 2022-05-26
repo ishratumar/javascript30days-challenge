@@ -4,7 +4,7 @@ Course created by  [Wes Bos](https://github.com/wesbos). Here's the challenge �
   
   Hi there 👋
 
-I created this repository in order to keep track of my progress in the JavaScript 30 Day Challenge and to commit and log what I have learned every day.
+I created this repository in order to keep track of my progress in the JavaScript 30 Day Challenge and to commit and log what I have learnet every day.
   
   # What is JavaScript 30 Day Challenge ? <br>
   It's a 30-day vanilla JavaScript coding challenge. You will build 30 unique projects in 30 days using fun and easy video tutorials.
@@ -390,7 +390,7 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 29
   ## Countdown Clock
   ### ✍️My learnings from this project:
-  - Learnet about Date.now(), clearInterval() functions. 
+  - Learnet about ```Date.now()```, ```clearInterval()``` functions. 
     
   # JavaScript 30-Day 30 
   ## Whack A Mole Game
