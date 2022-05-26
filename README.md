@@ -236,20 +236,42 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
   # JavaScript 30-Day 11
   ## HTML Video Player 
-  ### ✍️My learnings from this project:⤵️ 
-   Today we learned how to edit HTML video player controls. In the end, Wes challenged us to add full-screen functionality. 
+  ### ✍️My learnings from this project: 
+  - learnet some useful tips on customizing HTML5 video player controls. 
  
     
   # JavaScript 30-Day 11
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ##Key Detection
+  ### ✍️My learnings from this project:
+  - Learnet about Key sequence detection.
+  
     
     
   # JavaScript 30-Day 13 
-  ##
-  Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.
- As you scroll down, images slide in from the right or left sides of the page.
-  ### ✍️
+  ## Slide in on Scroll
+  ✦ Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.
+  ✦ As you scroll down, images slide in from the right or left sides of the page.
+  ### ✍️ My learnings from this project:
+  - Learnet about JavaScript ```debounce`` fuction
+    - The overhead of a function can be reduced by preventing it from being called repeatedly. This will help to speed up the website.
+  
+  Sample Code:
+  ```
+      function debounce(func, wait = 20, immediate = true) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+  ```
     
     
   
