@@ -235,15 +235,20 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
     
   # JavaScript 30-Day 11
-  ## HTML Video Player 
+  ## Custom Video Player 
   ### ✍️My learnings from this project: 
   - learnet some useful tips on customizing HTML5 video player controls. 
+    - Used ```togglePlay``` to play and pause the video.
+    - Added ```click``` event.
+    - Used event listners ```mousemove```,```mouseup```.
  
     
-  # JavaScript 30-Day 11
-  ##Key Detection
+  # JavaScript 30-Day 12
+  ##  Key Sequence Detection
   ### ✍️My learnings from this project:
-  - Learnet about Key sequence detection.
+  - Learnet about Key Sequence Detection and Konami Code.
+  -The Most Important Key Sequence Detection is when someone types in a series of keys, something occurs.
+
   
     
     
