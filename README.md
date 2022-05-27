@@ -246,12 +246,9 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 12
   ##  Key Sequence Detection
   ### ✍️My learnings from this project:
+  - It works in a way when when someone types in a series of keys, something occurs.
   - Learnet about Key Sequence Detection and Konami Code.
-  -The Most Important Key Sequence Detection is when someone types in a series of keys, something occurs.
-
-  
-    
-    
+      
   # JavaScript 30-Day 13 
   ## Slide in on Scroll
   ✦ Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.
@@ -281,61 +278,78 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
   
   # JavaScript 30-Day 14 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## JavaScript References VS Copying
+  ### ✍️My learnings from this project: 
+  - Learnet the differences between array & object references and actual copies. 
+  - A primitive type can be manipulated by its value, whereas a reference type can be modified by its reference.
   
   # JavaScript 30-Day 15 
-  ##
-   Today's Challenge is about 2 main things:
+  ## LocalStorage
+  - Today's Challenge is about 2 main things:
          1.Local Storage
          2.Event Deligation
 
-   ### ✍️My learnings from this project:⤵️ 
-      =>e.preventDefault(); // stops the page from reloading.<br>
-      =>JSON.stringify(items) // When you pass items it's going to convert your objects and arrays into a JSON string.<br>
-      =>JSON.parse() // take items from the string and put it back into form whatever it was initially.<br>
-      =>If you addEventListner() on something that doesn't't exist, you'll know that in future it won't be clicked.<br>
+   ### ✍️My learnings from this project: 
+   - ```e.preventDefault()``` -> stops the page from reloading.
+   - ```JSON.stringify(items)``` -> When you pass items it's going to convert your objects and arrays into a JSON string.
+   - ```JSON.parse()``` -> take items from the string and put it back into form whatever it was initially.
+   - ```If you addEventListner()``` on something that doesn't exist, you'll know that in future it won't be clicked.
   
   # JavaScript 30-Day 16 
-  ##
-    Day-16 is about adding shadow with <code>'mousemove'</code>.
-  ### ✍️My learnings from this project:⤵️ 
+  ## Mouse Move Shadow
+  ### ✍️My learnings from this project: 
+  - Day-16 is about adding shadow with ```mousemove```.
+  - Mainly learnet about ES6 Object destructuring and updating CSS rules, like text-shadow, using javascript.
     
 
   # JavaScript 30-Day 17 
-    Day-17 is about using 'array.sort()' to sort a list of band names without 'Articles'.
-  ##
-  ###  ✍️My learnings from this project:⤵️ 
+  ## Sort Without Articles
+  ###  ✍️My learnings from this project:
+  - Learnet about 'array.sort()' method to sort a list of band names without 'Articles'.
   
     
   # JavaScript 30-Day 18 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Adding Up Times with Reduce
+  ### ✍️My learnings from this project:
+  - See the usability test case scenario for ```Array.prototype.reduce()```. 
+  - When used correctly, ```reduce()``` can be quite effective.
     
     
   # JavaScript 30-Day 19
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Webcam Fun
+  ### ✍️My learnings from this project:
+  - Learnet how to make a photo booth using JavaScript.
+  - Real-time image pipelining and canvas were new concepts to me.
     
     
   # JavaScript 30-Day 20 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Speech Detection
+  ### ✍️My learnings from this project:
+  - Learnet about SpeechRecognition something like google voice search. Definitely a good challenge!
     
     
   # JavaScript 30-Day 21 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Geolocation
+  ### ✍️My learnings from this project:
+  - Learnet abbout Geolocation and Orientation Api.
+  - Learnet that mobile devices generally use GPS hardware to locate themselves.
     
     
   # JavaScript 30-Day 22 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
-    
+  ## Follow Along Link Highlighter
+  ### ✍️My learnings from this project:
+  - Learnet about ```Element.getBoundingClientRect()``` method and how it works.    
     
   # JavaScript 30-Day 23 
-  ##
-  ### ✍️My learnings from this project:⤵️ 
+  ## Speech Synthesis
+  ### ✍️My learnings from this project: 
+  - Learnet about speech Speech Synthesis CSS radial-gradient.
+  - Method Used:
+    - addEventListener()
+    - toggle()
+    - querySelectorAll()
+    - querySelector()
+    - includes()
     
     
   # JavaScript 30-Day 24
