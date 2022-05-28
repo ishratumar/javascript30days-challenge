@@ -338,7 +338,8 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 22 
   ## Follow Along Link Highlighter
   ### ✍️My learnings from this project:
-  - Learnet about ```Element.getBoundingClientRect()``` method and how it works.    
+  - Learnet about ```Element.getBoundingClientRect()``` method and how it works.
+  ✦The function returns a [DOMRect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect) containing information about the size and position of an element in relation to the [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport).
     
   # JavaScript 30-Day 23 
   ## Speech Synthesis
@@ -403,7 +404,28 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 28 
   ## Video Speed Controller UI
   ### ✍️My learnings from this project:
-  - So that was kind of cool.
+  - So that was kind of cool. Used offset properties for allignments.
+  ```
+  Code Sample:
+  <script>
+  const speed = document.querySelector('.speed');
+  const bar = speed.querySelector('.speed-bar');
+  const video = document.querySelector('.flex');
+
+  function handleMove(e) {
+      const y = e.pageY - this.offsetTop;
+      const percent = y / this.offsetHeight;
+      const min = 0.4;
+      const max = 4;
+      const height = Math.round(percent * 100) + '%';
+      const playbackRate = percent * (max - min) + min;
+      bar.style.height = height;
+      bar.textContent = playbackRate.toFixed(2) + '×';
+      video.playbackRate = playbackRate;
+    }
+  speed.addEventListener('mousemove', handleMove);
+</script>
+  ```
     
     
   # JavaScript 30-Day 29
