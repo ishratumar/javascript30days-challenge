@@ -416,6 +416,9 @@ Whenever you click on a nested element, it actually starts from the top and then
   ### ✍️My learnings from this project:
   - Completed today's challenge used ```document. query selector```, ```classList.add('up')``` and ```classList.remove('up')```.
   
+  ✦ It is recommended for those who wish to gain a deeper understanding of JavaScript.
+  
+  ### Give A Star ⭐
  ***Thank you for sticking with me all the way to the end! Please consider staring this repo on top right of the page if you enjoy it and find it useful.***
 
 
