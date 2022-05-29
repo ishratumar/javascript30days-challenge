@@ -385,6 +385,7 @@ Whenever you click on a nested element, it actually starts from the top and then
   ### ✍️My learnings from this project
   - Learnet how to make a "follow along" navigation. 
   - Learnet about ```getBoundingClientRect()```.
+  Found this website Search Engine Journal (https://www.searchenginejournal.com/)
   
     
     
