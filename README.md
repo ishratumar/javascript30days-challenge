@@ -356,8 +356,8 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 24
   ## Sticky nav
   ### ✍️My learnings from this project:
-  - Learnet how to fix a nav when you scroll to it?
-  - Use ```nav.OffsetHeight``` -> grab the height of the pixels.
+  - Learnet how to fix a nav using JavaScript when you scroll to it.
+  - You use ```nav.OffsetHeight``` -> to grab the height of the pixels.
     
     
   # JavaScript 30-Day 25 
@@ -383,9 +383,10 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 26 
   ## Stripe Follow Along Dropdown
   ### ✍️My learnings from this project
-  - Learnet how to make a "follow along" navigation. 
+  - Learnet how to make a "Follow Along" Navigation. 
   - Learnet about ```getBoundingClientRect()```.
-  Found this website Search Engine Journal (https://www.searchenginejournal.com/)
+  
+  *✦ [SEJ- Search Engine Journal](https://www.searchenginejournal.com/): Best website I have found for finding SEO information which has Stripe Follow Along Dropdown navigation. Check it out for inspiration.*
   
     
     
@@ -407,7 +408,8 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 28 
   ## Video Speed Controller UI
   ### ✍️My learnings from this project:
-  - So that was kind of cool. Used offset properties for allignments.
+  - Learnet how to use offset techniques for design presentations. By making use of the offset property, you can align elements exactly where you want them.
+  
   ```
   Code Sample:
   <script>
