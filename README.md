@@ -447,7 +447,7 @@ Whenever you click on a nested element, it actually starts from the top and then
   ✦ It is recommended for those who wish to gain a deeper understanding of JavaScript.
   
   ### Give A Star ⭐
- ***Thank you for sticking with me all the way to the end! Please consider staring this repo on top right of the page if you enjoy it and find it useful.***
+ ***Thank you for sticking with me all the way to the end! Please consider staring this repo on top right of the page if you enjoy it and find it useful!***
 
 
 
