@@ -26,7 +26,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
   4. play()
   ```
   
-   ✦```classList``` proprty=>The classList property returns the CSS classnames of an element. It returns a DOMTokenList.<br>
+   ✦```classList``` proprty -> The classList property returns the CSS classnames of an element. It returns a DOMTokenList.<br>
    **Found a very useful tool for finding JavaScript events Keycodes at [keycodes.info](https://keycode.info/)**.<br>
   
    # JavaScript 30-Day 2 
