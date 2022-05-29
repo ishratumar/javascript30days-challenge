@@ -120,6 +120,8 @@ I created this repository in order to keep track of my progress in the JavaScrip
    - Learnet the fundamentals of HTML5 canvas.
    - Build a painting canvas where if you hold down the mouse button and drag, you can paint on it. Something like Microsoft Paint👀
   
+  ✦ You can find a similar project in Book Eloquent JavaScript [Drawing on Canvas](https://eloquentjavascript.net/17_canvas.html).
+  
    # JavaScript 30-Day 9
    ## 14 Must Know Dev Tools Tricks💡
    ### ✍️My learnings from this project:
