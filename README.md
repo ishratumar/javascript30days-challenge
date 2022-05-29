@@ -339,6 +339,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
   ## Follow Along Link Highlighter
   ### ✍️My learnings from this project:
   - Learnet about ```Element.getBoundingClientRect()``` method and how it works.
+  
   ✦The function returns a [DOMRect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect) containing information about the size and position of an element in relation to the [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport).
     
   # JavaScript 30-Day 23 
