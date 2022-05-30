@@ -253,7 +253,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
       
   # JavaScript 30-Day 13 
   ## Slide in on Scroll
-  ✦ Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.
+  ✦ Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.<br>
   ✦ As you scroll down, images slide in from the right or left sides of the page.
   ### ✍️ My learnings from this project:
   - Learnet about JavaScript ```debounce`` fuction
