@@ -79,7 +79,6 @@ I created this repository in order to keep track of my progress in the JavaScrip
      - map() *returns exact same amount of elements as you give it.*
      - sort() *used for sorting elements in some order.*
      - reduce() *allow you to sort of build something on every single one.*
-  
     
     
    # JavaScript 30-Day 5 
@@ -232,9 +231,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
   
 ***✦ How it works:***
  - When you click a checkbox, hold Shift, and click another checkbox a few rows down or up, all the checkboxes in between those two are checked.
-   BOOM!! Wes style :D
-  
-    
+   BOOM!! Wes style :D    
     
   # JavaScript 30-Day 11
   ## Custom Video Player 
@@ -275,9 +272,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
         if (callNow) func.apply(context, args);
       };
     };
-  ```
-    
-    
+  ```  
   
   # JavaScript 30-Day 14 
   ## JavaScript References VS Copying
