@@ -4,7 +4,7 @@ Course created by  [Wes Bos](https://github.com/wesbos). Here's the challenge �
   
   Hi there 👋
 
-I created this repository in order to keep track of my progress in the JavaScript 30 Day Challenge and to commit and log what I have learnet every day.
+I created this repository in order to keep track of my progress in the JavaScript 30 Day Challenge and to commit and log what I learnt every day.
   
   # What is JavaScript 30 Day Challenge ? <br>
   It's a 30-day vanilla JavaScript coding challenge. You will build 30 unique projects in 30 days using fun and easy video tutorials.
@@ -26,20 +26,20 @@ I created this repository in order to keep track of my progress in the JavaScrip
   4. play()
   ```
   
-   ✦```classList``` proprty -> The classList property returns the CSS classnames of an element. It returns a DOMTokenList.<br>
+   ✦ ```classList``` proprty -> The classList property returns the CSS classnames of an element. It returns a DOMTokenList.<br>
    **Found a very useful tool for JavaScript events Keycodes at [keycodes.info](https://keycode.info/)**.<br>
   
    # JavaScript 30-Day 2 
    ## CSS + JS clock 🕓 
   ### ✍️ My learnings from this mini-project:
-   - I have learnet about CSS transitions and transform
+   - Learnt about CSS transitions and transform
    - The ES6 **'const'** keyword
    - Live UI update after few seconds
    - **Element.style** for inline styling
 
    # JavaScript 30-Day 3 
    ## Update CSS Variables with JS☑️
-   ✦The goal today was to create an Image editor to control the spacing, color, and blur by modifying CSS variables with JavaScript.
+   ✦ The goal today was to create an Image editor to control the spacing, color, and blur by modifying CSS variables with JavaScript.
   
    CSS variables explained:
    - spacing
@@ -55,26 +55,26 @@ I created this repository in order to keep track of my progress in the JavaScrip
       background-color: var(--base);
   }
    ```
-   - Code snippet to select all inputs on the page=> ```const inputs = document.querySelectorAll('.controls input');```
+   - Code snippet to select all inputs on the page -> ```const inputs = document.querySelectorAll('.controls input');```
    - **querySelector** gives you a **NodeList**
-   - Learnet about **'change'** and **'mousemove'** events
+   - Learnt about **'change'** and **'mousemove'** events
    ```
     Example code:
  
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
   ```
-   - Learnet about **'dataset'** that can be used to access all data attributes.
+   - Learnt about **'dataset'** that can be used to access all data attributes.
     
     
     
    # JavaScript 30-Day 4 
    ## Array Cardio Day 1 💪
     
-    ✦This lesson is all about Fundamentals of JavaScript(Array methods).
+    ✦ This lesson is all about Fundamentals of JavaScript(Array methods).
    ### ✍️ My learnings from this project:
    - Worked with ES6 Arrow functions.
-   - Learned about JavaScript array methods:
+   - Learnt about JavaScript array methods:
      - filter() *is like you give 10 things and it return 2.*
      - map() *returns exact same amount of elements as you give it.*
      - sort() *used for sorting elements in some order.*
@@ -83,8 +83,8 @@ I created this repository in order to keep track of my progress in the JavaScrip
     
    # JavaScript 30-Day 5 
    ## Flex Panels Gallery 💪
-    ✦The image will expand when you click on it and then shrink when you click it off.
-    ✦Today's lesson was about making a photo gallery
+    ✦ The image will expand when you click on it and then shrink when you click it off.
+    ✦ Today's lesson was about making a photo gallery
    ### ✍️My learnings from this project:
    - Primarily focused on CSS flex property.
    - Transitioned on **flex-grow** and **font-size** to expand images. 
@@ -92,7 +92,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
      - toggleOpen
      - toggleActive
  
-✦***Best resourse to learn CSS Flexbox:[Flexbox](https://flexbox.io/)***
+✦ ***Best resourse to learn CSS Flexbox:[Flexbox](https://flexbox.io/)***
   
     
    # JavaScript 30-Day 6 
@@ -106,7 +106,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
    # JavaScript 30-Day 7
    ## Array Cardio 💪💪
    ### ✍️My learnings from this project:
-   - Learnet some more Array methods 
+   - Learnt some more Array methods 
      - some()
      - every()
      - find()
@@ -116,7 +116,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
    # JavaScript 30-Day 8
    ## Fun with HTML5 Canvas🎨
    ### ✍️My learnings from this project:
-   - Learnet the fundamentals of HTML5 canvas.
+   - Learnt the fundamentals of HTML5 canvas.
    - Build a painting canvas where if you hold down the mouse button and drag, you can paint on it. Something like Microsoft Paint👀
   
   ✦ You can find a similar project in Book Eloquent JavaScript [Drawing on Canvas](https://eloquentjavascript.net/17_canvas.html).
@@ -124,7 +124,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
    # JavaScript 30-Day 9
    ## 14 Must Know Dev Tools Tricks💡
    ### ✍️My learnings from this project:
-   - Learnet how to use developer tools in your browser effectively. 
+   - Learnt how to use developer tools in your browser effectively. 
    - Wes shared some amazing tips and tricks for using the developer tools in your browser.
 
   All methods explained today👇
@@ -236,7 +236,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 11
   ## Custom Video Player 
   ### ✍️My learnings from this project: 
-  - learnet some useful tips on customizing HTML5 video player controls. 
+  - learnt some useful tips on customizing HTML5 video player controls. 
     - Used ```togglePlay``` to play and pause the video.
     - Added ```click``` event.
     - Used event listners ```mousemove```,```mouseup```.
@@ -246,14 +246,14 @@ I created this repository in order to keep track of my progress in the JavaScrip
   ##  Key Sequence Detection
   ### ✍️My learnings from this project:
   - It works in a way when when someone types in a series of keys, something occurs.
-  - Learnet about Key Sequence Detection and Konami Code.
+  - Learnt about Key Sequence Detection and Konami Code.
       
   # JavaScript 30-Day 13 
   ## Slide in on Scroll
   ✦ Today we used Javascript to add the Slide-In-On-Scroll functionality to a pre-built page.<br>
   ✦ As you scroll down, images slide in from the right or left sides of the page.
   ### ✍️ My learnings from this project:
-  - Learnet about JavaScript ```debounce`` fuction
+  - Learnt about JavaScript ```debounce``` fuction
     - The overhead of a function can be reduced by preventing it from being called repeatedly. This will help to speed up the website.
   
   Sample Code:
@@ -277,14 +277,14 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 14 
   ## JavaScript References VS Copying
   ### ✍️My learnings from this project: 
-  - Learnet the differences between array & object references and actual copies. 
+  - Learnt the differences between array & object references and actual copies. 
   - A primitive type can be manipulated by its value, whereas a reference type can be modified by its reference.
   
   # JavaScript 30-Day 15 
   ## LocalStorage
   - Today's Challenge is about 2 main things:
-         1.Local Storage
-         2.Event Deligation
+    1. Local Storage
+    2. Event Deligation
 
    ### ✍️My learnings from this project: 
    - ```e.preventDefault()``` -> stops the page from reloading.
@@ -296,13 +296,13 @@ I created this repository in order to keep track of my progress in the JavaScrip
   ## Mouse Move Shadow
   ### ✍️My learnings from this project: 
   - Day-16 is about adding shadow with ```mousemove```.
-  - Mainly learnet about ES6 Object destructuring and updating CSS rules, like text-shadow, using javascript.
+  - Mainly learnt about ES6 Object destructuring and updating CSS rules, like text-shadow, using javascript.
     
 
   # JavaScript 30-Day 17 
   ## Sort Without Articles
   ###  ✍️My learnings from this project:
-  - Learnet about 'array.sort()' method to sort a list of band names without 'Articles'.
+  - Learnt about ```array.sort()``` method to sort a list of band names without *'Articles'*.
   
     
   # JavaScript 30-Day 18 
@@ -315,34 +315,34 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 19
   ## Webcam Fun
   ### ✍️My learnings from this project:
-  - Learnet how to make a photo booth using JavaScript.
+  - Learnt how to make a photo booth using JavaScript.
   - Real-time image pipelining and canvas were new concepts to me.
     
     
   # JavaScript 30-Day 20 
   ## Speech Detection
   ### ✍️My learnings from this project:
-  - Learnet about SpeechRecognition something like google voice search. Definitely a good challenge!
+  - Learnt about SpeechRecognition something like google voice search. Definitely a good challenge!
     
     
   # JavaScript 30-Day 21 
   ## Geolocation
   ### ✍️My learnings from this project:
-  - Learnet abbout Geolocation and Orientation Api.
-  - Learnet that mobile devices generally use GPS hardware to locate themselves.
+  - Learnt abbout Geolocation and Orientation Api.
+  - Learnt that mobile devices generally use GPS hardware to locate themselves.
     
     
   # JavaScript 30-Day 22 
   ## Follow Along Link Highlighter
   ### ✍️My learnings from this project:
-  - Learnet about ```Element.getBoundingClientRect()``` method and how it works.
+  - Learnt about ```Element.getBoundingClientRect()``` method and how it works.
   
-  ✦The function returns a [DOMRect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect) containing information about the size and position of an element in relation to the [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport).
+  ✦ The function returns a [DOMRect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect) containing information about the size and position of an element in relation to the [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport).
     
   # JavaScript 30-Day 23 
   ## Speech Synthesis
   ### ✍️My learnings from this project: 
-  - Learnet about speech Speech Synthesis CSS radial-gradient.
+  - Learnt about speech Speech Synthesis CSS radial-gradient.
   - Method Used:
     - addEventListener()
     - toggle()
@@ -354,14 +354,14 @@ I created this repository in order to keep track of my progress in the JavaScrip
   # JavaScript 30-Day 24
   ## Sticky nav
   ### ✍️My learnings from this project:
-  - Learnet how to fix a nav using JavaScript when you scroll to it.
+  - Learnt how to fix a nav using JavaScript when you scroll to it.
   - You use ```nav.OffsetHeight``` -> to grab the height of the pixels.
     
     
   # JavaScript 30-Day 25 
   ## Event Capture, Propagation, Bubbling, and Once
   ### ✍️My learnings from this project:
-  - Learnet about ```propagation```, ```bubbling```, ```event capturing```, and new property ```once```.
+  - Learnt about ```propagation```, ```bubbling```, ```event capturing```, and new property ```once```.
     - Bubbling refers to the browser being able to determine what you clicked on, as well as trigger clicks to ripple up every time you click. For example:
 Whenever you click on a nested element, it actually starts from the top and then captures all of those events. It then starts at the bottom and starts doing something called a bubble.
     - The capture happens from top to bottom and then the events, the events haven't started yet. It only captures where you clicked, and is storing them. As you go up, it will begin to bubble up, which means it will start triggering events as you go up.
@@ -381,8 +381,8 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 26 
   ## Stripe Follow Along Dropdown
   ### ✍️My learnings from this project
-  - Learnet how to make a "Follow Along" Navigation. 
-  - Learnet about ```getBoundingClientRect()```.
+  - Learnt how to make a "Follow Along" Navigation. 
+  - Learnt about ```getBoundingClientRect()```.
   
   *✦ [SEJ- Search Engine Journal](https://www.searchenginejournal.com/): Best website I have found for finding SEO information which has Stripe Follow Along Dropdown navigation. Check it out for inspiration.*
   
@@ -391,7 +391,7 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 27
   ## Click and Drag to Scroll
   ### ✍️My learnings from this project:
-  - Learnet logic behind *Click and Drag to Scroll* using that plays main role ```element.offsetLeft```.
+  - Learnt logic behind *Click and Drag to Scroll* using that plays main role ```element.offsetLeft```.
   - It's just a combination of mouse down, mouse leave, mouse out, mouse up, and mouse move.
   ```
   CSS code:
@@ -406,7 +406,7 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 28 
   ## Video Speed Controller UI
   ### ✍️My learnings from this project:
-  - Learnet how to use offset techniques for design presentations. By making use of the offset property, you can align elements exactly where you want them.
+  - Learnt how to use offset techniques for design presentations. By making use of the offset property, you can align elements exactly where you want them.
   
   ```
   Code Sample:
@@ -434,7 +434,7 @@ Whenever you click on a nested element, it actually starts from the top and then
   # JavaScript 30-Day 29
   ## Countdown Clock
   ### ✍️My learnings from this project:
-  - Learnet about ```Date.now()```, ```clearInterval()``` functions. 
+  - Learnt about ```Date.now()```, ```clearInterval()``` functions. 
     
   # JavaScript 30-Day 30 
   ## Whack A Mole Game
