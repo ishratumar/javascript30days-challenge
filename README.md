@@ -185,13 +185,6 @@ I created this repository in order to keep track of my progress in the JavaScrip
      <td style="height:40px; width:10px; margin:0;">console.clear()
      </td>
    </tr>
-                  <tr style="height:40px; width:450px; margin:0;">
-     <td style="height:40px; width:40px; margin:0;">
-         clearing
-     </td>
-     <td style="height:40px; width:10px; margin:0;">console.log(p)<br>     console.dir(p)
-     </td>
-   </tr>
                       <tr style="height:40px; width:450px; margin:0;">
      <td style="height:40px; width:40px; margin:0;">
          Grouping together
