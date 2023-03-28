@@ -147,12 +147,12 @@ I created this repository in order to keep track of my progress in the JavaScrip
      <td style="height:40px; width:40px; margin:0;">
         Styled
      </td>
-     <td style="height:40px; width:10px; margin:0;">console.log( '%c text styling', background:red)       
+     <td style="height:40px; width:10px; margin:0;">console.log( '%c text styling', 'background:red')       
      </td>
    </tr>   
     <tr style="height:40px; width:450px; margin:0;">
      <td style="height:40px; width:40px; margin:0;">
-         warning!
+         Warning!
      </td>
      <td style="height:40px; width:10px; margin:0;">console.warn('warning message')       
      </td>
@@ -180,7 +180,7 @@ I created this repository in order to keep track of my progress in the JavaScrip
    </tr>
               <tr style="height:40px; width:450px; margin:0;">
      <td style="height:40px; width:40px; margin:0;">
-         clearing
+         Clearing
      </td>
      <td style="height:40px; width:10px; margin:0;">console.clear()
      </td>
@@ -194,14 +194,14 @@ I created this repository in order to keep track of my progress in the JavaScrip
    </tr>
                           <tr style="height:40px; width:450px; margin:0;">
      <td style="height:40px; width:40px; margin:0;">
-         counting
+         Counting
      </td>
      <td style="height:40px; width:10px; margin:0;">console.count('Count')
      </td>
    </tr>
                               <tr style="height:40px; width:450px; margin:0;">
      <td style="height:40px; width:40px; margin:0;">
-         timing
+         Timing
      </td>
      <td style="height:40px; width:10px; margin:0;">console.time('fetching data')
      </td>
